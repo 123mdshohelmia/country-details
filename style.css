@@ -1,0 +1,30 @@
+#countriseName{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:30px;
+}
+.country{
+    border: 1px solid goldenrod;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    /* margin-top: 20px; */
+}
+.country-name{
+    font-size: 40px;
+    font-weight: bold;
+    color: hotpink;
+}
+.image-section{
+    width: 100%;
+    height: 0 auto;
+}
+#countryDetails{
+    border: 1px solid solid;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: gainsboro;
+    padding: 20px;
+}
